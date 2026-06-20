@@ -1,0 +1,943 @@
+[2026-06-17 12:58:33] 
+============================================================
+[2026-06-17 12:58:33] build_cache.py  mode=LIVE  driver=VER  years=[2018]
+[2026-06-17 12:58:33] cache_dir=E:\f1-telemetry\telemetry-cache
+[2026-06-17 12:58:33] ============================================================
+[2026-06-17 12:58:34] 
+=== 2018 — 21 events ===
+[2026-06-17 12:59:02]   SKIP     2018 | Australian Grand Prix               | FP1  (VER not in session)
+[2026-06-17 12:59:29]   SKIP     2018 | Australian Grand Prix               | FP2  (VER not in session)
+[2026-06-17 12:59:49]   SKIP     2018 | Australian Grand Prix               | FP3  (VER not in session)
+[2026-06-17 13:05:09] 
+============================================================
+[2026-06-17 13:05:09] build_cache.py  mode=DRY-RUN  driver=VER  years=[2018]
+[2026-06-17 13:05:09] cache_dir=E:\f1-telemetry\telemetry-cache
+[2026-06-17 13:05:09] ============================================================
+[2026-06-17 13:05:11] 
+=== 2018 — 21 events ===
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Australian Grand Prix               | FP1
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Australian Grand Prix               | FP2
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Australian Grand Prix               | FP3
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Australian Grand Prix               | SQ
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Australian Grand Prix               | S
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Australian Grand Prix               | Q
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Australian Grand Prix               | R
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Bahrain Grand Prix                  | FP1
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Bahrain Grand Prix                  | FP2
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Bahrain Grand Prix                  | FP3
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Bahrain Grand Prix                  | SQ
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Bahrain Grand Prix                  | S
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Bahrain Grand Prix                  | Q
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Bahrain Grand Prix                  | R
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Chinese Grand Prix                  | FP1
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Chinese Grand Prix                  | FP2
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Chinese Grand Prix                  | FP3
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Chinese Grand Prix                  | SQ
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Chinese Grand Prix                  | S
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Chinese Grand Prix                  | Q
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Chinese Grand Prix                  | R
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Azerbaijan Grand Prix               | FP1
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Azerbaijan Grand Prix               | FP2
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Azerbaijan Grand Prix               | FP3
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Azerbaijan Grand Prix               | SQ
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Azerbaijan Grand Prix               | S
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Azerbaijan Grand Prix               | Q
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Azerbaijan Grand Prix               | R
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Spanish Grand Prix                  | FP1
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Spanish Grand Prix                  | FP2
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Spanish Grand Prix                  | FP3
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Spanish Grand Prix                  | SQ
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Spanish Grand Prix                  | S
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Spanish Grand Prix                  | Q
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Spanish Grand Prix                  | R
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Monaco Grand Prix                   | FP1
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Monaco Grand Prix                   | FP2
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Monaco Grand Prix                   | FP3
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Monaco Grand Prix                   | SQ
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Monaco Grand Prix                   | S
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Monaco Grand Prix                   | Q
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Monaco Grand Prix                   | R
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Canadian Grand Prix                 | FP1
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Canadian Grand Prix                 | FP2
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Canadian Grand Prix                 | FP3
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Canadian Grand Prix                 | SQ
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Canadian Grand Prix                 | S
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Canadian Grand Prix                 | Q
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Canadian Grand Prix                 | R
+[2026-06-17 13:05:11]   DRY-RUN  2018 | French Grand Prix                   | FP1
+[2026-06-17 13:05:11]   DRY-RUN  2018 | French Grand Prix                   | FP2
+[2026-06-17 13:05:11]   DRY-RUN  2018 | French Grand Prix                   | FP3
+[2026-06-17 13:05:11]   DRY-RUN  2018 | French Grand Prix                   | SQ
+[2026-06-17 13:05:11]   DRY-RUN  2018 | French Grand Prix                   | S
+[2026-06-17 13:05:11]   DRY-RUN  2018 | French Grand Prix                   | Q
+[2026-06-17 13:05:11]   DRY-RUN  2018 | French Grand Prix                   | R
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Austrian Grand Prix                 | FP1
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Austrian Grand Prix                 | FP2
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Austrian Grand Prix                 | FP3
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Austrian Grand Prix                 | SQ
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Austrian Grand Prix                 | S
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Austrian Grand Prix                 | Q
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Austrian Grand Prix                 | R
+[2026-06-17 13:05:11]   DRY-RUN  2018 | British Grand Prix                  | FP1
+[2026-06-17 13:05:11]   DRY-RUN  2018 | British Grand Prix                  | FP2
+[2026-06-17 13:05:11]   DRY-RUN  2018 | British Grand Prix                  | FP3
+[2026-06-17 13:05:11]   DRY-RUN  2018 | British Grand Prix                  | SQ
+[2026-06-17 13:05:11]   DRY-RUN  2018 | British Grand Prix                  | S
+[2026-06-17 13:05:11]   DRY-RUN  2018 | British Grand Prix                  | Q
+[2026-06-17 13:05:11]   DRY-RUN  2018 | British Grand Prix                  | R
+[2026-06-17 13:05:11]   DRY-RUN  2018 | German Grand Prix                   | FP1
+[2026-06-17 13:05:11]   DRY-RUN  2018 | German Grand Prix                   | FP2
+[2026-06-17 13:05:11]   DRY-RUN  2018 | German Grand Prix                   | FP3
+[2026-06-17 13:05:11]   DRY-RUN  2018 | German Grand Prix                   | SQ
+[2026-06-17 13:05:11]   DRY-RUN  2018 | German Grand Prix                   | S
+[2026-06-17 13:05:11]   DRY-RUN  2018 | German Grand Prix                   | Q
+[2026-06-17 13:05:11]   DRY-RUN  2018 | German Grand Prix                   | R
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Hungarian Grand Prix                | FP1
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Hungarian Grand Prix                | FP2
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Hungarian Grand Prix                | FP3
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Hungarian Grand Prix                | SQ
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Hungarian Grand Prix                | S
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Hungarian Grand Prix                | Q
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Hungarian Grand Prix                | R
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Belgian Grand Prix                  | FP1
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Belgian Grand Prix                  | FP2
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Belgian Grand Prix                  | FP3
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Belgian Grand Prix                  | SQ
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Belgian Grand Prix                  | S
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Belgian Grand Prix                  | Q
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Belgian Grand Prix                  | R
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Italian Grand Prix                  | FP1
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Italian Grand Prix                  | FP2
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Italian Grand Prix                  | FP3
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Italian Grand Prix                  | SQ
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Italian Grand Prix                  | S
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Italian Grand Prix                  | Q
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Italian Grand Prix                  | R
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Singapore Grand Prix                | FP1
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Singapore Grand Prix                | FP2
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Singapore Grand Prix                | FP3
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Singapore Grand Prix                | SQ
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Singapore Grand Prix                | S
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Singapore Grand Prix                | Q
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Singapore Grand Prix                | R
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Russian Grand Prix                  | FP1
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Russian Grand Prix                  | FP2
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Russian Grand Prix                  | FP3
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Russian Grand Prix                  | SQ
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Russian Grand Prix                  | S
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Russian Grand Prix                  | Q
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Russian Grand Prix                  | R
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Japanese Grand Prix                 | FP1
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Japanese Grand Prix                 | FP2
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Japanese Grand Prix                 | FP3
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Japanese Grand Prix                 | SQ
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Japanese Grand Prix                 | S
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Japanese Grand Prix                 | Q
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Japanese Grand Prix                 | R
+[2026-06-17 13:05:11]   DRY-RUN  2018 | United States Grand Prix            | FP1
+[2026-06-17 13:05:11]   DRY-RUN  2018 | United States Grand Prix            | FP2
+[2026-06-17 13:05:11]   DRY-RUN  2018 | United States Grand Prix            | FP3
+[2026-06-17 13:05:11]   DRY-RUN  2018 | United States Grand Prix            | SQ
+[2026-06-17 13:05:11]   DRY-RUN  2018 | United States Grand Prix            | S
+[2026-06-17 13:05:11]   DRY-RUN  2018 | United States Grand Prix            | Q
+[2026-06-17 13:05:11]   DRY-RUN  2018 | United States Grand Prix            | R
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Mexican Grand Prix                  | FP1
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Mexican Grand Prix                  | FP2
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Mexican Grand Prix                  | FP3
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Mexican Grand Prix                  | SQ
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Mexican Grand Prix                  | S
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Mexican Grand Prix                  | Q
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Mexican Grand Prix                  | R
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Brazilian Grand Prix                | FP1
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Brazilian Grand Prix                | FP2
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Brazilian Grand Prix                | FP3
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Brazilian Grand Prix                | SQ
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Brazilian Grand Prix                | S
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Brazilian Grand Prix                | Q
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Brazilian Grand Prix                | R
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Abu Dhabi Grand Prix                | FP1
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Abu Dhabi Grand Prix                | FP2
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Abu Dhabi Grand Prix                | FP3
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Abu Dhabi Grand Prix                | SQ
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Abu Dhabi Grand Prix                | S
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Abu Dhabi Grand Prix                | Q
+[2026-06-17 13:05:11]   DRY-RUN  2018 | Abu Dhabi Grand Prix                | R
+[2026-06-17 13:05:11] 
+============================================================
+[2026-06-17 13:05:11] Done in 0.0 min  |  ok=0  skipped=147  errors=0
+[2026-06-17 13:05:11] ============================================================
+
+[2026-06-17 13:05:31] 
+============================================================
+[2026-06-17 13:05:31] build_cache.py  mode=DRY-RUN  driver=VER  years=[2018]
+[2026-06-17 13:05:31] cache_dir=E:\f1-telemetry\telemetry-cache
+[2026-06-17 13:05:31] ============================================================
+[2026-06-17 13:05:32] 
+=== 2018 — 21 events ===
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Australian Grand Prix               | FP1
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Australian Grand Prix               | FP2
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Australian Grand Prix               | FP3
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Australian Grand Prix               | SQ
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Australian Grand Prix               | S
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Australian Grand Prix               | Q
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Australian Grand Prix               | R
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Bahrain Grand Prix                  | FP1
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Bahrain Grand Prix                  | FP2
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Bahrain Grand Prix                  | FP3
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Bahrain Grand Prix                  | SQ
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Bahrain Grand Prix                  | S
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Bahrain Grand Prix                  | Q
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Bahrain Grand Prix                  | R
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Chinese Grand Prix                  | FP1
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Chinese Grand Prix                  | FP2
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Chinese Grand Prix                  | FP3
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Chinese Grand Prix                  | SQ
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Chinese Grand Prix                  | S
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Chinese Grand Prix                  | Q
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Chinese Grand Prix                  | R
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Azerbaijan Grand Prix               | FP1
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Azerbaijan Grand Prix               | FP2
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Azerbaijan Grand Prix               | FP3
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Azerbaijan Grand Prix               | SQ
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Azerbaijan Grand Prix               | S
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Azerbaijan Grand Prix               | Q
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Azerbaijan Grand Prix               | R
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Spanish Grand Prix                  | FP1
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Spanish Grand Prix                  | FP2
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Spanish Grand Prix                  | FP3
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Spanish Grand Prix                  | SQ
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Spanish Grand Prix                  | S
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Spanish Grand Prix                  | Q
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Spanish Grand Prix                  | R
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Monaco Grand Prix                   | FP1
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Monaco Grand Prix                   | FP2
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Monaco Grand Prix                   | FP3
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Monaco Grand Prix                   | SQ
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Monaco Grand Prix                   | S
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Monaco Grand Prix                   | Q
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Monaco Grand Prix                   | R
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Canadian Grand Prix                 | FP1
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Canadian Grand Prix                 | FP2
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Canadian Grand Prix                 | FP3
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Canadian Grand Prix                 | SQ
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Canadian Grand Prix                 | S
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Canadian Grand Prix                 | Q
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Canadian Grand Prix                 | R
+[2026-06-17 13:05:32]   DRY-RUN  2018 | French Grand Prix                   | FP1
+[2026-06-17 13:05:32]   DRY-RUN  2018 | French Grand Prix                   | FP2
+[2026-06-17 13:05:32]   DRY-RUN  2018 | French Grand Prix                   | FP3
+[2026-06-17 13:05:32]   DRY-RUN  2018 | French Grand Prix                   | SQ
+[2026-06-17 13:05:32]   DRY-RUN  2018 | French Grand Prix                   | S
+[2026-06-17 13:05:32]   DRY-RUN  2018 | French Grand Prix                   | Q
+[2026-06-17 13:05:32]   DRY-RUN  2018 | French Grand Prix                   | R
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Austrian Grand Prix                 | FP1
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Austrian Grand Prix                 | FP2
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Austrian Grand Prix                 | FP3
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Austrian Grand Prix                 | SQ
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Austrian Grand Prix                 | S
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Austrian Grand Prix                 | Q
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Austrian Grand Prix                 | R
+[2026-06-17 13:05:32]   DRY-RUN  2018 | British Grand Prix                  | FP1
+[2026-06-17 13:05:32]   DRY-RUN  2018 | British Grand Prix                  | FP2
+[2026-06-17 13:05:32]   DRY-RUN  2018 | British Grand Prix                  | FP3
+[2026-06-17 13:05:32]   DRY-RUN  2018 | British Grand Prix                  | SQ
+[2026-06-17 13:05:32]   DRY-RUN  2018 | British Grand Prix                  | S
+[2026-06-17 13:05:32]   DRY-RUN  2018 | British Grand Prix                  | Q
+[2026-06-17 13:05:32]   DRY-RUN  2018 | British Grand Prix                  | R
+[2026-06-17 13:05:32]   DRY-RUN  2018 | German Grand Prix                   | FP1
+[2026-06-17 13:05:32]   DRY-RUN  2018 | German Grand Prix                   | FP2
+[2026-06-17 13:05:32]   DRY-RUN  2018 | German Grand Prix                   | FP3
+[2026-06-17 13:05:32]   DRY-RUN  2018 | German Grand Prix                   | SQ
+[2026-06-17 13:05:32]   DRY-RUN  2018 | German Grand Prix                   | S
+[2026-06-17 13:05:32]   DRY-RUN  2018 | German Grand Prix                   | Q
+[2026-06-17 13:05:32]   DRY-RUN  2018 | German Grand Prix                   | R
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Hungarian Grand Prix                | FP1
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Hungarian Grand Prix                | FP2
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Hungarian Grand Prix                | FP3
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Hungarian Grand Prix                | SQ
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Hungarian Grand Prix                | S
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Hungarian Grand Prix                | Q
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Hungarian Grand Prix                | R
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Belgian Grand Prix                  | FP1
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Belgian Grand Prix                  | FP2
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Belgian Grand Prix                  | FP3
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Belgian Grand Prix                  | SQ
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Belgian Grand Prix                  | S
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Belgian Grand Prix                  | Q
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Belgian Grand Prix                  | R
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Italian Grand Prix                  | FP1
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Italian Grand Prix                  | FP2
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Italian Grand Prix                  | FP3
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Italian Grand Prix                  | SQ
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Italian Grand Prix                  | S
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Italian Grand Prix                  | Q
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Italian Grand Prix                  | R
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Singapore Grand Prix                | FP1
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Singapore Grand Prix                | FP2
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Singapore Grand Prix                | FP3
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Singapore Grand Prix                | SQ
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Singapore Grand Prix                | S
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Singapore Grand Prix                | Q
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Singapore Grand Prix                | R
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Russian Grand Prix                  | FP1
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Russian Grand Prix                  | FP2
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Russian Grand Prix                  | FP3
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Russian Grand Prix                  | SQ
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Russian Grand Prix                  | S
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Russian Grand Prix                  | Q
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Russian Grand Prix                  | R
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Japanese Grand Prix                 | FP1
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Japanese Grand Prix                 | FP2
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Japanese Grand Prix                 | FP3
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Japanese Grand Prix                 | SQ
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Japanese Grand Prix                 | S
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Japanese Grand Prix                 | Q
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Japanese Grand Prix                 | R
+[2026-06-17 13:05:32]   DRY-RUN  2018 | United States Grand Prix            | FP1
+[2026-06-17 13:05:32]   DRY-RUN  2018 | United States Grand Prix            | FP2
+[2026-06-17 13:05:32]   DRY-RUN  2018 | United States Grand Prix            | FP3
+[2026-06-17 13:05:32]   DRY-RUN  2018 | United States Grand Prix            | SQ
+[2026-06-17 13:05:32]   DRY-RUN  2018 | United States Grand Prix            | S
+[2026-06-17 13:05:32]   DRY-RUN  2018 | United States Grand Prix            | Q
+[2026-06-17 13:05:32]   DRY-RUN  2018 | United States Grand Prix            | R
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Mexican Grand Prix                  | FP1
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Mexican Grand Prix                  | FP2
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Mexican Grand Prix                  | FP3
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Mexican Grand Prix                  | SQ
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Mexican Grand Prix                  | S
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Mexican Grand Prix                  | Q
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Mexican Grand Prix                  | R
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Brazilian Grand Prix                | FP1
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Brazilian Grand Prix                | FP2
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Brazilian Grand Prix                | FP3
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Brazilian Grand Prix                | SQ
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Brazilian Grand Prix                | S
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Brazilian Grand Prix                | Q
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Brazilian Grand Prix                | R
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Abu Dhabi Grand Prix                | FP1
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Abu Dhabi Grand Prix                | FP2
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Abu Dhabi Grand Prix                | FP3
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Abu Dhabi Grand Prix                | SQ
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Abu Dhabi Grand Prix                | S
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Abu Dhabi Grand Prix                | Q
+[2026-06-17 13:05:32]   DRY-RUN  2018 | Abu Dhabi Grand Prix                | R
+[2026-06-17 13:05:32] 
+============================================================
+[2026-06-17 13:05:32] Done in 0.0 min  |  ok=0  skipped=147  errors=0
+[2026-06-17 13:05:32] ============================================================
+
+[2026-06-17 13:06:08] 
+============================================================
+[2026-06-17 13:06:08] build_cache.py  mode=LIVE  driver=VER  years=[2018]
+[2026-06-17 13:06:08] cache_dir=E:\f1-telemetry\telemetry-cache
+[2026-06-17 13:06:08] ============================================================
+[2026-06-17 13:06:08] 
+=== 2018 — 21 events ===
+[2026-06-17 13:06:12]   SKIP     2018 | Australian Grand Prix               | FP1  (VER not in session)
+[2026-06-17 13:06:15]   SKIP     2018 | Australian Grand Prix               | FP2  (VER not in session)
+[2026-06-17 13:06:18]   SKIP     2018 | Australian Grand Prix               | FP3  (VER not in session)
+[2026-06-17 13:06:20]   SKIP     2018 | Australian Grand Prix               | SQ  (session not available)
+[2026-06-17 13:06:22]   SKIP     2018 | Australian Grand Prix               | S  (session not available)
+[2026-06-17 13:06:41]   SKIP     2018 | Australian Grand Prix               | Q  (VER not in session)
+[2026-06-17 13:07:02]   SKIP     2018 | Australian Grand Prix               | R  (VER not in session)
+[2026-06-17 13:07:25]   SKIP     2018 | Bahrain Grand Prix                  | FP1  (VER not in session)
+[2026-06-17 13:07:46]   SKIP     2018 | Bahrain Grand Prix                  | FP2  (VER not in session)
+[2026-06-17 13:08:07]   SKIP     2018 | Bahrain Grand Prix                  | FP3  (VER not in session)
+[2026-06-17 13:08:09]   SKIP     2018 | Bahrain Grand Prix                  | SQ  (session not available)
+[2026-06-17 13:08:11]   SKIP     2018 | Bahrain Grand Prix                  | S  (session not available)
+[2026-06-17 13:08:32]   SKIP     2018 | Bahrain Grand Prix                  | Q  (VER not in session)
+[2026-06-17 13:08:53]   SKIP     2018 | Bahrain Grand Prix                  | R  (VER not in session)
+[2026-06-17 13:09:18]   SKIP     2018 | Chinese Grand Prix                  | FP1  (VER not in session)
+[2026-06-17 13:09:36]   SKIP     2018 | Chinese Grand Prix                  | FP2  (VER not in session)
+[2026-06-17 13:09:56]   SKIP     2018 | Chinese Grand Prix                  | FP3  (VER not in session)
+[2026-06-17 13:09:59]   SKIP     2018 | Chinese Grand Prix                  | SQ  (session not available)
+[2026-06-17 13:10:01]   SKIP     2018 | Chinese Grand Prix                  | S  (session not available)
+[2026-06-17 13:10:21]   SKIP     2018 | Chinese Grand Prix                  | Q  (VER not in session)
+[2026-06-17 13:10:50]   SKIP     2018 | Chinese Grand Prix                  | R  (VER not in session)
+[2026-06-17 13:11:39]   SKIP     2018 | Azerbaijan Grand Prix               | FP1  (VER not in session)
+[2026-06-17 13:12:32]   SKIP     2018 | Azerbaijan Grand Prix               | FP2  (VER not in session)
+[2026-06-17 13:13:14]   SKIP     2018 | Azerbaijan Grand Prix               | FP3  (VER not in session)
+[2026-06-17 13:13:16]   SKIP     2018 | Azerbaijan Grand Prix               | SQ  (session not available)
+[2026-06-17 13:13:18]   SKIP     2018 | Azerbaijan Grand Prix               | S  (session not available)
+[2026-06-17 13:13:59]   SKIP     2018 | Azerbaijan Grand Prix               | Q  (VER not in session)
+[2026-06-17 13:15:00]   SKIP     2018 | Azerbaijan Grand Prix               | R  (VER not in session)
+[2026-06-17 13:15:55]   SKIP     2018 | Spanish Grand Prix                  | FP1  (VER not in session)
+[2026-06-17 13:16:45]   SKIP     2018 | Spanish Grand Prix                  | FP2  (VER not in session)
+[2026-06-17 13:17:29]   SKIP     2018 | Spanish Grand Prix                  | FP3  (VER not in session)
+[2026-06-17 13:17:31]   SKIP     2018 | Spanish Grand Prix                  | SQ  (session not available)
+[2026-06-17 13:17:33]   SKIP     2018 | Spanish Grand Prix                  | S  (session not available)
+[2026-06-17 13:18:18]   SKIP     2018 | Spanish Grand Prix                  | Q  (VER not in session)
+[2026-06-17 13:19:17]   SKIP     2018 | Spanish Grand Prix                  | R  (VER not in session)
+[2026-06-17 13:20:14]   SKIP     2018 | Monaco Grand Prix                   | FP1  (VER not in session)
+[2026-06-17 13:21:07]   SKIP     2018 | Monaco Grand Prix                   | FP2  (VER not in session)
+[2026-06-17 13:21:51]   SKIP     2018 | Monaco Grand Prix                   | FP3  (VER not in session)
+[2026-06-17 13:21:53]   SKIP     2018 | Monaco Grand Prix                   | SQ  (session not available)
+[2026-06-17 13:21:55]   SKIP     2018 | Monaco Grand Prix                   | S  (session not available)
+[2026-06-17 13:22:41]   SKIP     2018 | Monaco Grand Prix                   | Q  (VER not in session)
+[2026-06-17 13:23:49]   SKIP     2018 | Monaco Grand Prix                   | R  (VER not in session)
+[2026-06-17 13:24:39]   SKIP     2018 | Canadian Grand Prix                 | FP1  (VER not in session)
+[2026-06-17 13:25:19]   SKIP     2018 | Canadian Grand Prix                 | FP2  (VER not in session)
+[2026-06-17 13:26:01]   SKIP     2018 | Canadian Grand Prix                 | FP3  (VER not in session)
+[2026-06-17 13:26:03]   SKIP     2018 | Canadian Grand Prix                 | SQ  (session not available)
+[2026-06-17 13:26:05]   SKIP     2018 | Canadian Grand Prix                 | S  (session not available)
+[2026-06-17 13:26:47]   SKIP     2018 | Canadian Grand Prix                 | Q  (VER not in session)
+[2026-06-17 13:27:43]   SKIP     2018 | Canadian Grand Prix                 | R  (VER not in session)
+[2026-06-17 13:28:31]   SKIP     2018 | French Grand Prix                   | FP1  (VER not in session)
+[2026-06-17 13:29:03]   SKIP     2018 | French Grand Prix                   | FP2  (VER not in session)
+[2026-06-17 13:29:42]   SKIP     2018 | French Grand Prix                   | FP3  (VER not in session)
+[2026-06-17 13:29:44]   SKIP     2018 | French Grand Prix                   | SQ  (session not available)
+[2026-06-17 13:29:46]   SKIP     2018 | French Grand Prix                   | S  (session not available)
+[2026-06-17 13:30:08]   SKIP     2018 | French Grand Prix                   | Q  (VER not in session)
+[2026-06-17 13:30:33]   SKIP     2018 | French Grand Prix                   | R  (VER not in session)
+[2026-06-17 13:30:57]   SKIP     2018 | Austrian Grand Prix                 | FP1  (VER not in session)
+[2026-06-17 13:31:18]   SKIP     2018 | Austrian Grand Prix                 | FP2  (VER not in session)
+[2026-06-17 13:31:41]   SKIP     2018 | Austrian Grand Prix                 | FP3  (VER not in session)
+[2026-06-17 13:31:43]   SKIP     2018 | Austrian Grand Prix                 | SQ  (session not available)
+[2026-06-17 13:31:45]   SKIP     2018 | Austrian Grand Prix                 | S  (session not available)
+[2026-06-17 13:32:06]   SKIP     2018 | Austrian Grand Prix                 | Q  (VER not in session)
+[2026-06-17 13:32:36]   SKIP     2018 | Austrian Grand Prix                 | R  (VER not in session)
+[2026-06-17 13:33:03]   SKIP     2018 | British Grand Prix                  | FP1  (VER not in session)
+[2026-06-17 13:33:25]   SKIP     2018 | British Grand Prix                  | FP2  (VER not in session)
+[2026-06-17 13:33:45]   SKIP     2018 | British Grand Prix                  | FP3  (VER not in session)
+[2026-06-17 13:33:47]   SKIP     2018 | British Grand Prix                  | SQ  (session not available)
+[2026-06-17 13:33:49]   SKIP     2018 | British Grand Prix                  | S  (session not available)
+[2026-06-17 13:34:10]   SKIP     2018 | British Grand Prix                  | Q  (VER not in session)
+[2026-06-17 13:34:33]   SKIP     2018 | British Grand Prix                  | R  (VER not in session)
+[2026-06-17 13:34:53]   SKIP     2018 | German Grand Prix                   | FP1  (VER not in session)
+[2026-06-17 13:35:15]   SKIP     2018 | German Grand Prix                   | FP2  (VER not in session)
+[2026-06-17 13:35:29]   ERROR    2018 | German Grand Prix                   | FP3  — any API: 500 calls/h
+[2026-06-17 13:35:31]   SKIP     2018 | German Grand Prix                   | SQ  (session not available)
+[2026-06-17 13:35:33]   SKIP     2018 | German Grand Prix                   | S  (session not available)
+[2026-06-17 13:35:35]   ERROR    2018 | German Grand Prix                   | Q  — any API: 500 calls/h
+[2026-06-17 13:35:37]   ERROR    2018 | German Grand Prix                   | R  — any API: 500 calls/h
+[2026-06-17 13:35:39]   ERROR    2018 | Hungarian Grand Prix                | FP1  — any API: 500 calls/h
+[2026-06-17 13:35:41]   ERROR    2018 | Hungarian Grand Prix                | FP2  — any API: 500 calls/h
+[2026-06-17 13:35:43]   ERROR    2018 | Hungarian Grand Prix                | FP3  — any API: 500 calls/h
+[2026-06-17 13:35:45]   SKIP     2018 | Hungarian Grand Prix                | SQ  (session not available)
+[2026-06-17 13:35:47]   SKIP     2018 | Hungarian Grand Prix                | S  (session not available)
+[2026-06-17 13:35:49]   ERROR    2018 | Hungarian Grand Prix                | Q  — any API: 500 calls/h
+[2026-06-17 13:35:52]   ERROR    2018 | Hungarian Grand Prix                | R  — any API: 500 calls/h
+[2026-06-17 13:35:54]   ERROR    2018 | Belgian Grand Prix                  | FP1  — any API: 500 calls/h
+[2026-06-17 13:35:56]   ERROR    2018 | Belgian Grand Prix                  | FP2  — any API: 500 calls/h
+[2026-06-17 13:35:58]   ERROR    2018 | Belgian Grand Prix                  | FP3  — any API: 500 calls/h
+[2026-06-17 13:36:00]   SKIP     2018 | Belgian Grand Prix                  | SQ  (session not available)
+[2026-06-17 13:36:02]   SKIP     2018 | Belgian Grand Prix                  | S  (session not available)
+[2026-06-17 13:36:04]   ERROR    2018 | Belgian Grand Prix                  | Q  — any API: 500 calls/h
+[2026-06-17 13:36:06]   ERROR    2018 | Belgian Grand Prix                  | R  — any API: 500 calls/h
+[2026-06-17 13:36:08]   ERROR    2018 | Italian Grand Prix                  | FP1  — any API: 500 calls/h
+[2026-06-17 13:36:10]   ERROR    2018 | Italian Grand Prix                  | FP2  — any API: 500 calls/h
+[2026-06-17 13:36:12]   ERROR    2018 | Italian Grand Prix                  | FP3  — any API: 500 calls/h
+[2026-06-17 13:36:14]   SKIP     2018 | Italian Grand Prix                  | SQ  (session not available)
+[2026-06-17 13:36:16]   SKIP     2018 | Italian Grand Prix                  | S  (session not available)
+[2026-06-17 13:36:18]   ERROR    2018 | Italian Grand Prix                  | Q  — any API: 500 calls/h
+[2026-06-17 13:36:20]   ERROR    2018 | Italian Grand Prix                  | R  — any API: 500 calls/h
+[2026-06-17 13:36:22]   ERROR    2018 | Singapore Grand Prix                | FP1  — any API: 500 calls/h
+[2026-06-17 13:36:24]   ERROR    2018 | Singapore Grand Prix                | FP2  — any API: 500 calls/h
+[2026-06-17 13:36:26]   ERROR    2018 | Singapore Grand Prix                | FP3  — any API: 500 calls/h
+[2026-06-17 13:36:28]   SKIP     2018 | Singapore Grand Prix                | SQ  (session not available)
+[2026-06-17 13:36:30]   SKIP     2018 | Singapore Grand Prix                | S  (session not available)
+[2026-06-17 13:36:32]   ERROR    2018 | Singapore Grand Prix                | Q  — any API: 500 calls/h
+[2026-06-17 13:36:34]   ERROR    2018 | Singapore Grand Prix                | R  — any API: 500 calls/h
+[2026-06-17 13:36:36]   ERROR    2018 | Russian Grand Prix                  | FP1  — any API: 500 calls/h
+[2026-06-17 13:36:38]   ERROR    2018 | Russian Grand Prix                  | FP2  — any API: 500 calls/h
+[2026-06-17 13:36:40]   ERROR    2018 | Russian Grand Prix                  | FP3  — any API: 500 calls/h
+[2026-06-17 13:36:42]   SKIP     2018 | Russian Grand Prix                  | SQ  (session not available)
+[2026-06-17 13:36:44]   SKIP     2018 | Russian Grand Prix                  | S  (session not available)
+[2026-06-17 13:36:46]   ERROR    2018 | Russian Grand Prix                  | Q  — any API: 500 calls/h
+[2026-06-17 13:36:48]   ERROR    2018 | Russian Grand Prix                  | R  — any API: 500 calls/h
+[2026-06-17 13:36:51]   ERROR    2018 | Japanese Grand Prix                 | FP1  — any API: 500 calls/h
+[2026-06-17 13:36:53]   ERROR    2018 | Japanese Grand Prix                 | FP2  — any API: 500 calls/h
+[2026-06-17 13:36:55]   ERROR    2018 | Japanese Grand Prix                 | FP3  — any API: 500 calls/h
+[2026-06-17 13:36:57]   SKIP     2018 | Japanese Grand Prix                 | SQ  (session not available)
+[2026-06-17 13:36:59]   SKIP     2018 | Japanese Grand Prix                 | S  (session not available)
+[2026-06-17 13:37:01]   ERROR    2018 | Japanese Grand Prix                 | Q  — any API: 500 calls/h
+[2026-06-17 13:37:03]   ERROR    2018 | Japanese Grand Prix                 | R  — any API: 500 calls/h
+[2026-06-17 13:37:05]   ERROR    2018 | United States Grand Prix            | FP1  — any API: 500 calls/h
+[2026-06-17 13:37:07]   ERROR    2018 | United States Grand Prix            | FP2  — any API: 500 calls/h
+[2026-06-17 13:37:09]   ERROR    2018 | United States Grand Prix            | FP3  — any API: 500 calls/h
+[2026-06-17 13:37:11]   SKIP     2018 | United States Grand Prix            | SQ  (session not available)
+[2026-06-17 13:37:13]   SKIP     2018 | United States Grand Prix            | S  (session not available)
+[2026-06-17 13:37:15]   ERROR    2018 | United States Grand Prix            | Q  — any API: 500 calls/h
+[2026-06-17 13:37:17]   ERROR    2018 | United States Grand Prix            | R  — any API: 500 calls/h
+[2026-06-17 13:37:20]   ERROR    2018 | Mexican Grand Prix                  | FP1  — any API: 500 calls/h
+[2026-06-17 13:37:22]   ERROR    2018 | Mexican Grand Prix                  | FP2  — any API: 500 calls/h
+[2026-06-17 13:37:24]   ERROR    2018 | Mexican Grand Prix                  | FP3  — any API: 500 calls/h
+[2026-06-17 13:37:26]   SKIP     2018 | Mexican Grand Prix                  | SQ  (session not available)
+[2026-06-17 13:37:28]   SKIP     2018 | Mexican Grand Prix                  | S  (session not available)
+[2026-06-17 13:37:31]   ERROR    2018 | Mexican Grand Prix                  | Q  — any API: 500 calls/h
+[2026-06-17 13:37:33]   ERROR    2018 | Mexican Grand Prix                  | R  — any API: 500 calls/h
+[2026-06-17 13:37:35]   ERROR    2018 | Brazilian Grand Prix                | FP1  — any API: 500 calls/h
+[2026-06-17 13:37:37]   ERROR    2018 | Brazilian Grand Prix                | FP2  — any API: 500 calls/h
+[2026-06-17 13:37:40]   ERROR    2018 | Brazilian Grand Prix                | FP3  — any API: 500 calls/h
+[2026-06-17 13:37:42]   SKIP     2018 | Brazilian Grand Prix                | SQ  (session not available)
+[2026-06-17 13:37:44]   SKIP     2018 | Brazilian Grand Prix                | S  (session not available)
+[2026-06-17 13:37:46]   ERROR    2018 | Brazilian Grand Prix                | Q  — any API: 500 calls/h
+[2026-06-17 13:37:48]   ERROR    2018 | Brazilian Grand Prix                | R  — any API: 500 calls/h
+[2026-06-17 13:37:50]   ERROR    2018 | Abu Dhabi Grand Prix                | FP1  — any API: 500 calls/h
+[2026-06-17 13:37:53]   ERROR    2018 | Abu Dhabi Grand Prix                | FP2  — any API: 500 calls/h
+[2026-06-17 13:37:55]   ERROR    2018 | Abu Dhabi Grand Prix                | FP3  — any API: 500 calls/h
+[2026-06-17 13:37:57]   SKIP     2018 | Abu Dhabi Grand Prix                | SQ  (session not available)
+[2026-06-17 13:37:59]   SKIP     2018 | Abu Dhabi Grand Prix                | S  (session not available)
+[2026-06-17 13:38:01]   ERROR    2018 | Abu Dhabi Grand Prix                | Q  — any API: 500 calls/h
+[2026-06-17 13:38:04]   ERROR    2018 | Abu Dhabi Grand Prix                | R  — any API: 500 calls/h
+[2026-06-17 13:38:06] 
+============================================================
+[2026-06-17 13:38:06] Done in 32.0 min  |  ok=0  skipped=94  errors=53
+[2026-06-17 13:38:06] ============================================================
+
+[2026-06-17 13:38:29] 
+============================================================
+[2026-06-17 13:38:29] build_cache.py  mode=LIVE  driver=VER  years=[2019]
+[2026-06-17 13:38:29] cache_dir=E:\f1-telemetry\telemetry-cache
+[2026-06-17 13:38:29] ============================================================
+[2026-06-17 13:38:29] 
+=== 2019 — 21 events ===
+[2026-06-17 13:38:50]   SKIP     2019 | Australian Grand Prix               | FP1  (VER not in session)
+[2026-06-17 13:39:11]   SKIP     2019 | Australian Grand Prix               | FP2  (VER not in session)
+[2026-06-17 13:39:30]   SKIP     2019 | Australian Grand Prix               | FP3  (VER not in session)
+[2026-06-17 13:39:32]   SKIP     2019 | Australian Grand Prix               | SQ  (session not available)
+[2026-06-17 13:39:34]   SKIP     2019 | Australian Grand Prix               | S  (session not available)
+[2026-06-17 13:39:52]   SKIP     2019 | Australian Grand Prix               | Q  (VER not in session)
+[2026-06-17 13:40:21]   SKIP     2019 | Australian Grand Prix               | R  (VER not in session)
+[2026-06-17 13:40:45]   SKIP     2019 | Bahrain Grand Prix                  | FP1  (VER not in session)
+[2026-06-17 13:41:08]   SKIP     2019 | Bahrain Grand Prix                  | FP2  (VER not in session)
+[2026-06-17 13:41:29]   SKIP     2019 | Bahrain Grand Prix                  | FP3  (VER not in session)
+[2026-06-17 13:41:31]   SKIP     2019 | Bahrain Grand Prix                  | SQ  (session not available)
+[2026-06-17 13:41:33]   SKIP     2019 | Bahrain Grand Prix                  | S  (session not available)
+[2026-06-17 13:42:08]   SKIP     2019 | Bahrain Grand Prix                  | Q  (VER not in session)
+[2026-06-17 13:42:40]   SKIP     2019 | Bahrain Grand Prix                  | R  (VER not in session)
+[2026-06-17 13:43:04]   SKIP     2019 | Chinese Grand Prix                  | FP1  (VER not in session)
+[2026-06-17 13:43:29]   SKIP     2019 | Chinese Grand Prix                  | FP2  (VER not in session)
+[2026-06-17 13:43:53]   SKIP     2019 | Chinese Grand Prix                  | FP3  (VER not in session)
+[2026-06-17 13:43:55]   SKIP     2019 | Chinese Grand Prix                  | SQ  (session not available)
+[2026-06-17 13:43:57]   SKIP     2019 | Chinese Grand Prix                  | S  (session not available)
+[2026-06-17 13:44:19]   SKIP     2019 | Chinese Grand Prix                  | Q  (VER not in session)
+[2026-06-17 13:44:47]   SKIP     2019 | Chinese Grand Prix                  | R  (VER not in session)
+[2026-06-17 13:45:04]   SKIP     2019 | Azerbaijan Grand Prix               | FP1  (VER not in session)
+[2026-06-17 13:45:25]   SKIP     2019 | Azerbaijan Grand Prix               | FP2  (VER not in session)
+[2026-06-17 13:45:54]   SKIP     2019 | Azerbaijan Grand Prix               | FP3  (VER not in session)
+[2026-06-17 13:45:56]   SKIP     2019 | Azerbaijan Grand Prix               | SQ  (session not available)
+[2026-06-17 13:45:58]   SKIP     2019 | Azerbaijan Grand Prix               | S  (session not available)
+[2026-06-17 13:46:33]   SKIP     2019 | Azerbaijan Grand Prix               | Q  (VER not in session)
+[2026-06-17 13:47:00]   SKIP     2019 | Azerbaijan Grand Prix               | R  (VER not in session)
+[2026-06-17 13:47:24]   SKIP     2019 | Spanish Grand Prix                  | FP1  (VER not in session)
+[2026-06-17 13:47:48]   SKIP     2019 | Spanish Grand Prix                  | FP2  (VER not in session)
+[2026-06-17 13:48:10]   SKIP     2019 | Spanish Grand Prix                  | FP3  (VER not in session)
+[2026-06-17 13:48:12]   SKIP     2019 | Spanish Grand Prix                  | SQ  (session not available)
+[2026-06-17 13:48:14]   SKIP     2019 | Spanish Grand Prix                  | S  (session not available)
+[2026-06-17 13:48:36]   SKIP     2019 | Spanish Grand Prix                  | Q  (VER not in session)
+[2026-06-17 13:49:07]   SKIP     2019 | Spanish Grand Prix                  | R  (VER not in session)
+[2026-06-17 13:49:36]   SKIP     2019 | Monaco Grand Prix                   | FP1  (VER not in session)
+[2026-06-17 13:50:01]   SKIP     2019 | Monaco Grand Prix                   | FP2  (VER not in session)
+[2026-06-17 13:50:23]   SKIP     2019 | Monaco Grand Prix                   | FP3  (VER not in session)
+[2026-06-17 13:50:25]   SKIP     2019 | Monaco Grand Prix                   | SQ  (session not available)
+[2026-06-17 13:50:27]   SKIP     2019 | Monaco Grand Prix                   | S  (session not available)
+[2026-06-17 13:50:50]   SKIP     2019 | Monaco Grand Prix                   | Q  (VER not in session)
+[2026-06-17 13:51:18]   SKIP     2019 | Monaco Grand Prix                   | R  (VER not in session)
+[2026-06-17 13:51:45]   SKIP     2019 | Canadian Grand Prix                 | FP1  (VER not in session)
+[2026-06-17 13:52:15]   SKIP     2019 | Canadian Grand Prix                 | FP2  (VER not in session)
+[2026-06-17 13:52:36]   SKIP     2019 | Canadian Grand Prix                 | FP3  (VER not in session)
+[2026-06-17 13:52:38]   SKIP     2019 | Canadian Grand Prix                 | SQ  (session not available)
+[2026-06-17 13:52:40]   SKIP     2019 | Canadian Grand Prix                 | S  (session not available)
+[2026-06-17 13:53:01]   SKIP     2019 | Canadian Grand Prix                 | Q  (VER not in session)
+[2026-06-17 13:53:35]   SKIP     2019 | Canadian Grand Prix                 | R  (VER not in session)
+[2026-06-17 13:53:57]   SKIP     2019 | French Grand Prix                   | FP1  (VER not in session)
+[2026-06-17 13:54:19]   SKIP     2019 | French Grand Prix                   | FP2  (VER not in session)
+[2026-06-17 13:54:38]   SKIP     2019 | French Grand Prix                   | FP3  (VER not in session)
+[2026-06-17 13:54:40]   SKIP     2019 | French Grand Prix                   | SQ  (session not available)
+[2026-06-17 13:54:42]   SKIP     2019 | French Grand Prix                   | S  (session not available)
+[2026-06-17 13:55:03]   SKIP     2019 | French Grand Prix                   | Q  (VER not in session)
+[2026-06-17 13:55:29]   SKIP     2019 | French Grand Prix                   | R  (VER not in session)
+[2026-06-17 13:55:52]   SKIP     2019 | Austrian Grand Prix                 | FP1  (VER not in session)
+[2026-06-17 13:56:14]   SKIP     2019 | Austrian Grand Prix                 | FP2  (VER not in session)
+[2026-06-17 13:56:35]   SKIP     2019 | Austrian Grand Prix                 | FP3  (VER not in session)
+[2026-06-17 13:56:37]   SKIP     2019 | Austrian Grand Prix                 | SQ  (session not available)
+[2026-06-17 13:56:39]   SKIP     2019 | Austrian Grand Prix                 | S  (session not available)
+[2026-06-17 13:57:06]   SKIP     2019 | Austrian Grand Prix                 | Q  (VER not in session)
+[2026-06-17 13:57:34]   SKIP     2019 | Austrian Grand Prix                 | R  (VER not in session)
+[2026-06-17 13:57:58]   SKIP     2019 | British Grand Prix                  | FP1  (VER not in session)
+[2026-06-17 13:58:25]   SKIP     2019 | British Grand Prix                  | FP2  (VER not in session)
+[2026-06-17 13:58:48]   SKIP     2019 | British Grand Prix                  | FP3  (VER not in session)
+[2026-06-17 13:58:50]   SKIP     2019 | British Grand Prix                  | SQ  (session not available)
+[2026-06-17 13:58:52]   SKIP     2019 | British Grand Prix                  | S  (session not available)
+[2026-06-17 13:59:12]   SKIP     2019 | British Grand Prix                  | Q  (VER not in session)
+[2026-06-17 13:59:42]   SKIP     2019 | British Grand Prix                  | R  (VER not in session)
+[2026-06-17 13:59:47]   ERROR    2019 | German Grand Prix                   | FP1  — any API: 500 calls/h
+[2026-06-17 13:59:49]   ERROR    2019 | German Grand Prix                   | FP2  — any API: 500 calls/h
+[2026-06-17 13:59:51]   ERROR    2019 | German Grand Prix                   | FP3  — any API: 500 calls/h
+[2026-06-17 13:59:53]   SKIP     2019 | German Grand Prix                   | SQ  (session not available)
+[2026-06-17 13:59:55]   SKIP     2019 | German Grand Prix                   | S  (session not available)
+[2026-06-17 13:59:58]   ERROR    2019 | German Grand Prix                   | Q  — any API: 500 calls/h
+[2026-06-17 14:00:00]   ERROR    2019 | German Grand Prix                   | R  — any API: 500 calls/h
+[2026-06-17 14:00:02]   ERROR    2019 | Hungarian Grand Prix                | FP1  — any API: 500 calls/h
+[2026-06-17 14:00:04]   ERROR    2019 | Hungarian Grand Prix                | FP2  — any API: 500 calls/h
+[2026-06-17 14:00:06]   ERROR    2019 | Hungarian Grand Prix                | FP3  — any API: 500 calls/h
+[2026-06-17 14:00:08]   SKIP     2019 | Hungarian Grand Prix                | SQ  (session not available)
+[2026-06-17 14:00:10]   SKIP     2019 | Hungarian Grand Prix                | S  (session not available)
+[2026-06-17 14:00:12]   ERROR    2019 | Hungarian Grand Prix                | Q  — any API: 500 calls/h
+[2026-06-17 14:00:14]   ERROR    2019 | Hungarian Grand Prix                | R  — any API: 500 calls/h
+[2026-06-17 14:00:16]   ERROR    2019 | Belgian Grand Prix                  | FP1  — any API: 500 calls/h
+[2026-06-17 14:00:18]   ERROR    2019 | Belgian Grand Prix                  | FP2  — any API: 500 calls/h
+[2026-06-17 14:00:20]   ERROR    2019 | Belgian Grand Prix                  | FP3  — any API: 500 calls/h
+[2026-06-17 14:00:22]   SKIP     2019 | Belgian Grand Prix                  | SQ  (session not available)
+[2026-06-17 14:00:24]   SKIP     2019 | Belgian Grand Prix                  | S  (session not available)
+[2026-06-17 14:00:26]   ERROR    2019 | Belgian Grand Prix                  | Q  — any API: 500 calls/h
+[2026-06-17 14:00:28]   ERROR    2019 | Belgian Grand Prix                  | R  — any API: 500 calls/h
+[2026-06-17 14:00:30]   ERROR    2019 | Italian Grand Prix                  | FP1  — any API: 500 calls/h
+[2026-06-17 14:00:32]   ERROR    2019 | Italian Grand Prix                  | FP2  — any API: 500 calls/h
+[2026-06-17 14:00:34]   ERROR    2019 | Italian Grand Prix                  | FP3  — any API: 500 calls/h
+[2026-06-17 14:00:36]   SKIP     2019 | Italian Grand Prix                  | SQ  (session not available)
+[2026-06-17 14:00:38]   SKIP     2019 | Italian Grand Prix                  | S  (session not available)
+[2026-06-17 14:00:40]   ERROR    2019 | Italian Grand Prix                  | Q  — any API: 500 calls/h
+[2026-06-17 14:00:42]   ERROR    2019 | Italian Grand Prix                  | R  — any API: 500 calls/h
+[2026-06-17 14:00:44]   ERROR    2019 | Singapore Grand Prix                | FP1  — any API: 500 calls/h
+[2026-06-17 14:00:46]   ERROR    2019 | Singapore Grand Prix                | FP2  — any API: 500 calls/h
+[2026-06-17 14:00:48]   ERROR    2019 | Singapore Grand Prix                | FP3  — any API: 500 calls/h
+[2026-06-17 14:00:50]   SKIP     2019 | Singapore Grand Prix                | SQ  (session not available)
+[2026-06-17 14:00:52]   SKIP     2019 | Singapore Grand Prix                | S  (session not available)
+[2026-06-17 14:00:55]   ERROR    2019 | Singapore Grand Prix                | Q  — any API: 500 calls/h
+[2026-06-17 14:00:57]   ERROR    2019 | Singapore Grand Prix                | R  — any API: 500 calls/h
+[2026-06-17 14:00:59]   ERROR    2019 | Russian Grand Prix                  | FP1  — any API: 500 calls/h
+[2026-06-17 14:01:01]   ERROR    2019 | Russian Grand Prix                  | FP2  — any API: 500 calls/h
+[2026-06-17 14:01:03]   ERROR    2019 | Russian Grand Prix                  | FP3  — any API: 500 calls/h
+[2026-06-17 14:01:05]   SKIP     2019 | Russian Grand Prix                  | SQ  (session not available)
+[2026-06-17 14:01:07]   SKIP     2019 | Russian Grand Prix                  | S  (session not available)
+[2026-06-17 14:01:09]   ERROR    2019 | Russian Grand Prix                  | Q  — any API: 500 calls/h
+[2026-06-17 14:01:11]   ERROR    2019 | Russian Grand Prix                  | R  — any API: 500 calls/h
+[2026-06-17 14:01:13]   ERROR    2019 | Japanese Grand Prix                 | FP1  — any API: 500 calls/h
+[2026-06-17 14:01:15]   ERROR    2019 | Japanese Grand Prix                 | FP2  — any API: 500 calls/h
+[2026-06-17 14:01:17]   ERROR    2019 | Japanese Grand Prix                 | FP3  — any API: 500 calls/h
+[2026-06-17 14:01:19]   SKIP     2019 | Japanese Grand Prix                 | SQ  (session not available)
+[2026-06-17 14:01:21]   SKIP     2019 | Japanese Grand Prix                 | S  (session not available)
+[2026-06-17 14:01:23]   ERROR    2019 | Japanese Grand Prix                 | Q  — any API: 500 calls/h
+[2026-06-17 14:01:25]   ERROR    2019 | Japanese Grand Prix                 | R  — any API: 500 calls/h
+[2026-06-17 14:01:27]   ERROR    2019 | Mexican Grand Prix                  | FP1  — any API: 500 calls/h
+[2026-06-17 14:01:29]   ERROR    2019 | Mexican Grand Prix                  | FP2  — any API: 500 calls/h
+[2026-06-17 14:01:31]   ERROR    2019 | Mexican Grand Prix                  | FP3  — any API: 500 calls/h
+[2026-06-17 14:01:33]   SKIP     2019 | Mexican Grand Prix                  | SQ  (session not available)
+[2026-06-17 14:01:35]   SKIP     2019 | Mexican Grand Prix                  | S  (session not available)
+[2026-06-17 14:01:37]   ERROR    2019 | Mexican Grand Prix                  | Q  — any API: 500 calls/h
+[2026-06-17 14:01:39]   ERROR    2019 | Mexican Grand Prix                  | R  — any API: 500 calls/h
+[2026-06-17 14:01:41]   ERROR    2019 | United States Grand Prix            | FP1  — any API: 500 calls/h
+[2026-06-17 14:01:43]   ERROR    2019 | United States Grand Prix            | FP2  — any API: 500 calls/h
+[2026-06-17 14:01:45]   ERROR    2019 | United States Grand Prix            | FP3  — any API: 500 calls/h
+[2026-06-17 14:01:48]   SKIP     2019 | United States Grand Prix            | SQ  (session not available)
+[2026-06-17 14:01:50]   SKIP     2019 | United States Grand Prix            | S  (session not available)
+[2026-06-17 14:01:52]   ERROR    2019 | United States Grand Prix            | Q  — any API: 500 calls/h
+[2026-06-17 14:01:54]   ERROR    2019 | United States Grand Prix            | R  — any API: 500 calls/h
+[2026-06-17 14:01:56]   ERROR    2019 | Brazilian Grand Prix                | FP1  — any API: 500 calls/h
+[2026-06-17 14:01:58]   ERROR    2019 | Brazilian Grand Prix                | FP2  — any API: 500 calls/h
+[2026-06-17 14:02:00]   ERROR    2019 | Brazilian Grand Prix                | FP3  — any API: 500 calls/h
+[2026-06-17 14:02:02]   SKIP     2019 | Brazilian Grand Prix                | SQ  (session not available)
+[2026-06-17 14:02:04]   SKIP     2019 | Brazilian Grand Prix                | S  (session not available)
+[2026-06-17 14:02:06]   ERROR    2019 | Brazilian Grand Prix                | Q  — any API: 500 calls/h
+[2026-06-17 14:02:08]   ERROR    2019 | Brazilian Grand Prix                | R  — any API: 500 calls/h
+[2026-06-17 14:02:10]   ERROR    2019 | Abu Dhabi Grand Prix                | FP1  — any API: 500 calls/h
+[2026-06-17 14:02:12]   ERROR    2019 | Abu Dhabi Grand Prix                | FP2  — any API: 500 calls/h
+[2026-06-17 14:02:14]   ERROR    2019 | Abu Dhabi Grand Prix                | FP3  — any API: 500 calls/h
+[2026-06-17 14:02:16]   SKIP     2019 | Abu Dhabi Grand Prix                | SQ  (session not available)
+[2026-06-17 14:02:18]   SKIP     2019 | Abu Dhabi Grand Prix                | S  (session not available)
+[2026-06-17 14:02:20]   ERROR    2019 | Abu Dhabi Grand Prix                | Q  — any API: 500 calls/h
+[2026-06-17 14:02:22]   ERROR    2019 | Abu Dhabi Grand Prix                | R  — any API: 500 calls/h
+[2026-06-17 14:02:24] 
+============================================================
+[2026-06-17 14:02:24] Done in 23.9 min  |  ok=0  skipped=92  errors=55
+[2026-06-17 14:02:24] ============================================================
+
+[2026-06-17 14:02:36] 
+============================================================
+[2026-06-17 14:02:36] build_cache.py  mode=LIVE  driver=VER  years=[2020]
+[2026-06-17 14:02:36] cache_dir=E:\f1-telemetry\telemetry-cache
+[2026-06-17 14:02:36] ============================================================
+[2026-06-17 14:02:37] 
+=== 2020 — 17 events ===
+[2026-06-17 14:03:04]   SKIP     2020 | Austrian Grand Prix                 | FP1  (VER not in session)
+[2026-06-17 14:03:35]   SKIP     2020 | Austrian Grand Prix                 | FP2  (VER not in session)
+[2026-06-17 14:03:56]   SKIP     2020 | Austrian Grand Prix                 | FP3  (VER not in session)
+[2026-06-17 14:03:58]   SKIP     2020 | Austrian Grand Prix                 | SQ  (session not available)
+[2026-06-17 14:04:00]   SKIP     2020 | Austrian Grand Prix                 | S  (session not available)
+[2026-06-17 14:04:22]   SKIP     2020 | Austrian Grand Prix                 | Q  (VER not in session)
+[2026-06-17 14:04:51]   SKIP     2020 | Austrian Grand Prix                 | R  (VER not in session)
+[2026-06-17 14:05:15]   SKIP     2020 | Styrian Grand Prix                  | FP1  (VER not in session)
+[2026-06-17 14:05:39]   SKIP     2020 | Styrian Grand Prix                  | FP2  (VER not in session)
+[2026-06-17 14:05:56]   SKIP     2020 | Styrian Grand Prix                  | FP3  (VER not in session)
+[2026-06-17 14:05:58]   SKIP     2020 | Styrian Grand Prix                  | SQ  (session not available)
+[2026-06-17 14:06:00]   SKIP     2020 | Styrian Grand Prix                  | S  (session not available)
+[2026-06-17 14:06:30]   SKIP     2020 | Styrian Grand Prix                  | Q  (VER not in session)
+[2026-06-17 14:07:00]   SKIP     2020 | Styrian Grand Prix                  | R  (VER not in session)
+[2026-06-17 14:07:24]   SKIP     2020 | Hungarian Grand Prix                | FP1  (VER not in session)
+[2026-06-17 14:07:46]   SKIP     2020 | Hungarian Grand Prix                | FP2  (VER not in session)
+[2026-06-17 14:08:08]   SKIP     2020 | Hungarian Grand Prix                | FP3  (VER not in session)
+[2026-06-17 14:08:10]   SKIP     2020 | Hungarian Grand Prix                | SQ  (session not available)
+[2026-06-17 14:08:12]   SKIP     2020 | Hungarian Grand Prix                | S  (session not available)
+[2026-06-17 14:08:40]   SKIP     2020 | Hungarian Grand Prix                | Q  (VER not in session)
+[2026-06-17 14:09:12]   SKIP     2020 | Hungarian Grand Prix                | R  (VER not in session)
+[2026-06-17 14:09:35]   SKIP     2020 | British Grand Prix                  | FP1  (VER not in session)
+[2026-06-17 14:10:07]   SKIP     2020 | British Grand Prix                  | FP2  (VER not in session)
+[2026-06-17 14:10:28]   SKIP     2020 | British Grand Prix                  | FP3  (VER not in session)
+[2026-06-17 14:10:30]   SKIP     2020 | British Grand Prix                  | SQ  (session not available)
+[2026-06-17 14:10:32]   SKIP     2020 | British Grand Prix                  | S  (session not available)
+[2026-06-17 14:10:53]   SKIP     2020 | British Grand Prix                  | Q  (VER not in session)
+[2026-06-17 14:11:25]   SKIP     2020 | British Grand Prix                  | R  (VER not in session)
+[2026-06-17 14:11:52]   SKIP     2020 | 70th Anniversary Grand Prix         | FP1  (VER not in session)
+[2026-06-17 14:12:19]   SKIP     2020 | 70th Anniversary Grand Prix         | FP2  (VER not in session)
+[2026-06-17 14:12:43]   SKIP     2020 | 70th Anniversary Grand Prix         | FP3  (VER not in session)
+[2026-06-17 14:12:45]   SKIP     2020 | 70th Anniversary Grand Prix         | SQ  (session not available)
+[2026-06-17 14:12:47]   SKIP     2020 | 70th Anniversary Grand Prix         | S  (session not available)
+[2026-06-17 14:13:10]   SKIP     2020 | 70th Anniversary Grand Prix         | Q  (VER not in session)
+[2026-06-17 14:13:47]   SKIP     2020 | 70th Anniversary Grand Prix         | R  (VER not in session)
+[2026-06-17 14:14:11]   SKIP     2020 | Spanish Grand Prix                  | FP1  (VER not in session)
+[2026-06-17 14:14:36]   SKIP     2020 | Spanish Grand Prix                  | FP2  (VER not in session)
+[2026-06-17 14:15:00]   SKIP     2020 | Spanish Grand Prix                  | FP3  (VER not in session)
+[2026-06-17 14:15:02]   SKIP     2020 | Spanish Grand Prix                  | SQ  (session not available)
+[2026-06-17 14:15:04]   SKIP     2020 | Spanish Grand Prix                  | S  (session not available)
+[2026-06-17 14:15:28]   SKIP     2020 | Spanish Grand Prix                  | Q  (VER not in session)
+[2026-06-17 14:16:00]   SKIP     2020 | Spanish Grand Prix                  | R  (VER not in session)
+[2026-06-17 14:16:25]   SKIP     2020 | Belgian Grand Prix                  | FP1  (VER not in session)
+[2026-06-17 14:16:49]   SKIP     2020 | Belgian Grand Prix                  | FP2  (VER not in session)
+[2026-06-17 14:17:11]   SKIP     2020 | Belgian Grand Prix                  | FP3  (VER not in session)
+[2026-06-17 14:17:13]   SKIP     2020 | Belgian Grand Prix                  | SQ  (session not available)
+[2026-06-17 14:17:15]   SKIP     2020 | Belgian Grand Prix                  | S  (session not available)
+[2026-06-17 14:17:37]   SKIP     2020 | Belgian Grand Prix                  | Q  (VER not in session)
+[2026-06-17 14:18:09]   SKIP     2020 | Belgian Grand Prix                  | R  (VER not in session)
+[2026-06-17 14:18:35]   SKIP     2020 | Italian Grand Prix                  | FP1  (VER not in session)
+[2026-06-17 14:18:59]   SKIP     2020 | Italian Grand Prix                  | FP2  (VER not in session)
+[2026-06-17 14:19:23]   SKIP     2020 | Italian Grand Prix                  | FP3  (VER not in session)
+[2026-06-17 14:19:25]   SKIP     2020 | Italian Grand Prix                  | SQ  (session not available)
+[2026-06-17 14:19:27]   SKIP     2020 | Italian Grand Prix                  | S  (session not available)
+[2026-06-17 14:19:50]   SKIP     2020 | Italian Grand Prix                  | Q  (VER not in session)
+[2026-06-17 14:20:24]   SKIP     2020 | Italian Grand Prix                  | R  (VER not in session)
+[2026-06-17 14:20:49]   SKIP     2020 | Tuscan Grand Prix                   | FP1  (VER not in session)
+[2026-06-17 14:21:17]   SKIP     2020 | Tuscan Grand Prix                   | FP2  (VER not in session)
+[2026-06-17 14:21:41]   SKIP     2020 | Tuscan Grand Prix                   | FP3  (VER not in session)
+[2026-06-17 14:21:43]   SKIP     2020 | Tuscan Grand Prix                   | SQ  (session not available)
+[2026-06-17 14:21:45]   SKIP     2020 | Tuscan Grand Prix                   | S  (session not available)
+[2026-06-17 14:22:05]   SKIP     2020 | Tuscan Grand Prix                   | Q  (VER not in session)
+[2026-06-17 14:22:39]   SKIP     2020 | Tuscan Grand Prix                   | R  (VER not in session)
+[2026-06-17 14:23:11]   SKIP     2020 | Russian Grand Prix                  | FP1  (VER not in session)
+[2026-06-17 14:23:37]   SKIP     2020 | Russian Grand Prix                  | FP2  (VER not in session)
+[2026-06-17 14:23:59]   SKIP     2020 | Russian Grand Prix                  | FP3  (VER not in session)
+[2026-06-17 14:24:01]   SKIP     2020 | Russian Grand Prix                  | SQ  (session not available)
+[2026-06-17 14:24:03]   SKIP     2020 | Russian Grand Prix                  | S  (session not available)
+[2026-06-17 14:24:25]   SKIP     2020 | Russian Grand Prix                  | Q  (VER not in session)
+[2026-06-17 14:24:57]   SKIP     2020 | Russian Grand Prix                  | R  (VER not in session)
+[2026-06-17 14:25:03]   ERROR    2020 | Eifel Grand Prix                    | FP1  — any API: 500 calls/h
+[2026-06-17 14:25:05]   ERROR    2020 | Eifel Grand Prix                    | FP2  — any API: 500 calls/h
+[2026-06-17 14:25:07]   ERROR    2020 | Eifel Grand Prix                    | FP3  — any API: 500 calls/h
+[2026-06-17 14:25:09]   SKIP     2020 | Eifel Grand Prix                    | SQ  (session not available)
+[2026-06-17 14:25:11]   SKIP     2020 | Eifel Grand Prix                    | S  (session not available)
+[2026-06-17 14:25:13]   ERROR    2020 | Eifel Grand Prix                    | Q  — any API: 500 calls/h
+[2026-06-17 14:25:15]   ERROR    2020 | Eifel Grand Prix                    | R  — any API: 500 calls/h
+[2026-06-17 14:25:17]   ERROR    2020 | Portuguese Grand Prix               | FP1  — any API: 500 calls/h
+[2026-06-17 14:25:19]   ERROR    2020 | Portuguese Grand Prix               | FP2  — any API: 500 calls/h
+[2026-06-17 14:25:22]   ERROR    2020 | Portuguese Grand Prix               | FP3  — any API: 500 calls/h
+[2026-06-17 14:25:24]   SKIP     2020 | Portuguese Grand Prix               | SQ  (session not available)
+[2026-06-17 14:25:26]   SKIP     2020 | Portuguese Grand Prix               | S  (session not available)
+[2026-06-17 14:25:28]   ERROR    2020 | Portuguese Grand Prix               | Q  — any API: 500 calls/h
+[2026-06-17 14:25:30]   ERROR    2020 | Portuguese Grand Prix               | R  — any API: 500 calls/h
+[2026-06-17 14:25:32]   ERROR    2020 | Emilia Romagna Grand Prix           | FP1  — any API: 500 calls/h
+[2026-06-17 14:25:34]   SKIP     2020 | Emilia Romagna Grand Prix           | FP2  (session not available)
+[2026-06-17 14:25:36]   SKIP     2020 | Emilia Romagna Grand Prix           | FP3  (session not available)
+[2026-06-17 14:25:38]   SKIP     2020 | Emilia Romagna Grand Prix           | SQ  (session not available)
+[2026-06-17 14:25:40]   SKIP     2020 | Emilia Romagna Grand Prix           | S  (session not available)
+[2026-06-17 14:25:42]   ERROR    2020 | Emilia Romagna Grand Prix           | Q  — any API: 500 calls/h
+[2026-06-17 14:25:44]   ERROR    2020 | Emilia Romagna Grand Prix           | R  — any API: 500 calls/h
+[2026-06-17 14:25:46]   ERROR    2020 | Turkish Grand Prix                  | FP1  — any API: 500 calls/h
+[2026-06-17 14:25:48]   ERROR    2020 | Turkish Grand Prix                  | FP2  — any API: 500 calls/h
+[2026-06-17 14:25:50]   ERROR    2020 | Turkish Grand Prix                  | FP3  — any API: 500 calls/h
+[2026-06-17 14:25:52]   SKIP     2020 | Turkish Grand Prix                  | SQ  (session not available)
+[2026-06-17 14:25:54]   SKIP     2020 | Turkish Grand Prix                  | S  (session not available)
+[2026-06-17 14:25:56]   ERROR    2020 | Turkish Grand Prix                  | Q  — any API: 500 calls/h
+[2026-06-17 14:25:58]   ERROR    2020 | Turkish Grand Prix                  | R  — any API: 500 calls/h
+[2026-06-17 14:26:00]   ERROR    2020 | Bahrain Grand Prix                  | FP1  — any API: 500 calls/h
+[2026-06-17 14:26:02]   ERROR    2020 | Bahrain Grand Prix                  | FP2  — any API: 500 calls/h
+[2026-06-17 14:26:04]   ERROR    2020 | Bahrain Grand Prix                  | FP3  — any API: 500 calls/h
+[2026-06-17 14:26:06]   SKIP     2020 | Bahrain Grand Prix                  | SQ  (session not available)
+[2026-06-17 14:26:08]   SKIP     2020 | Bahrain Grand Prix                  | S  (session not available)
+[2026-06-17 14:26:11]   ERROR    2020 | Bahrain Grand Prix                  | Q  — any API: 500 calls/h
+[2026-06-17 14:26:13]   ERROR    2020 | Bahrain Grand Prix                  | R  — any API: 500 calls/h
+[2026-06-17 14:26:15]   ERROR    2020 | Sakhir Grand Prix                   | FP1  — any API: 500 calls/h
+[2026-06-17 14:26:17]   ERROR    2020 | Sakhir Grand Prix                   | FP2  — any API: 500 calls/h
+[2026-06-17 14:26:19]   ERROR    2020 | Sakhir Grand Prix                   | FP3  — any API: 500 calls/h
+[2026-06-17 14:26:21]   SKIP     2020 | Sakhir Grand Prix                   | SQ  (session not available)
+[2026-06-17 14:26:23]   SKIP     2020 | Sakhir Grand Prix                   | S  (session not available)
+[2026-06-17 14:26:25]   ERROR    2020 | Sakhir Grand Prix                   | Q  — any API: 500 calls/h
+[2026-06-17 14:26:27]   ERROR    2020 | Sakhir Grand Prix                   | R  — any API: 500 calls/h
+[2026-06-17 14:26:29]   ERROR    2020 | Abu Dhabi Grand Prix                | FP1  — any API: 500 calls/h
+[2026-06-17 14:26:31]   ERROR    2020 | Abu Dhabi Grand Prix                | FP2  — any API: 500 calls/h
+[2026-06-17 14:26:33]   ERROR    2020 | Abu Dhabi Grand Prix                | FP3  — any API: 500 calls/h
+[2026-06-17 14:26:35]   SKIP     2020 | Abu Dhabi Grand Prix                | SQ  (session not available)
+[2026-06-17 14:26:42]   SKIP     2020 | Abu Dhabi Grand Prix                | S  (session not available)
+[2026-06-17 14:26:44]   ERROR    2020 | Abu Dhabi Grand Prix                | Q  — any API: 500 calls/h
+[2026-06-17 14:26:46]   ERROR    2020 | Abu Dhabi Grand Prix                | R  — any API: 500 calls/h
+[2026-06-17 14:26:48] 
+============================================================
+[2026-06-17 14:26:48] Done in 24.2 min  |  ok=0  skipped=86  errors=33
+[2026-06-17 14:26:48] ============================================================
+
+[2026-06-17 14:27:47] 
+============================================================
+[2026-06-17 14:27:47] build_cache.py  mode=LIVE  driver=VER  years=[2021]
+[2026-06-17 14:27:47] cache_dir=E:\f1-telemetry\telemetry-cache
+[2026-06-17 14:27:47] ============================================================
+[2026-06-17 14:27:48] 
+=== 2021 — 22 events ===
+[2026-06-17 14:28:11]   SKIP     2021 | Bahrain Grand Prix                  | FP1  (VER not in session)
+[2026-06-17 14:28:34]   SKIP     2021 | Bahrain Grand Prix                  | FP2  (VER not in session)
+[2026-06-17 14:28:55]   SKIP     2021 | Bahrain Grand Prix                  | FP3  (VER not in session)
+[2026-06-17 14:28:57]   SKIP     2021 | Bahrain Grand Prix                  | SQ  (session not available)
+[2026-06-17 14:28:59]   SKIP     2021 | Bahrain Grand Prix                  | S  (session not available)
+[2026-06-17 14:29:22]   SKIP     2021 | Bahrain Grand Prix                  | Q  (VER not in session)
+[2026-06-17 14:29:58]   SKIP     2021 | Bahrain Grand Prix                  | R  (VER not in session)
+[2026-06-17 14:30:17]   SKIP     2021 | Emilia Romagna Grand Prix           | FP1  (VER not in session)
+[2026-06-17 14:30:39]   SKIP     2021 | Emilia Romagna Grand Prix           | FP2  (VER not in session)
+[2026-06-17 14:50:07]   SKIP     2021 | Emilia Romagna Grand Prix           | FP3  (VER not in session)
+[2026-06-17 14:50:10]   SKIP     2021 | Emilia Romagna Grand Prix           | SQ  (session not available)
+[2026-06-17 14:50:12]   SKIP     2021 | Emilia Romagna Grand Prix           | S  (session not available)
+[2026-06-17 14:50:34]   SKIP     2021 | Emilia Romagna Grand Prix           | Q  (VER not in session)
+[2026-06-17 14:51:07]   SKIP     2021 | Emilia Romagna Grand Prix           | R  (VER not in session)
+[2026-06-17 14:51:32]   SKIP     2021 | Portuguese Grand Prix               | FP1  (VER not in session)
+[2026-06-17 14:51:57]   SKIP     2021 | Portuguese Grand Prix               | FP2  (VER not in session)
+[2026-06-17 14:52:19]   SKIP     2021 | Portuguese Grand Prix               | FP3  (VER not in session)
+[2026-06-17 14:52:21]   SKIP     2021 | Portuguese Grand Prix               | SQ  (session not available)
+[2026-06-17 14:52:23]   SKIP     2021 | Portuguese Grand Prix               | S  (session not available)
+[2026-06-17 14:52:49]   SKIP     2021 | Portuguese Grand Prix               | Q  (VER not in session)
+[2026-06-17 14:55:28]   SKIP     2021 | Portuguese Grand Prix               | R  (VER not in session)
+[2026-06-17 14:55:51]   SKIP     2021 | Spanish Grand Prix                  | FP1  (VER not in session)
+[2026-06-17 14:56:14]   SKIP     2021 | Spanish Grand Prix                  | FP2  (VER not in session)
+[2026-06-17 14:56:37]   SKIP     2021 | Spanish Grand Prix                  | FP3  (VER not in session)
+[2026-06-17 14:56:39]   SKIP     2021 | Spanish Grand Prix                  | SQ  (session not available)
+[2026-06-17 14:56:41]   SKIP     2021 | Spanish Grand Prix                  | S  (session not available)
+[2026-06-17 14:57:02]   SKIP     2021 | Spanish Grand Prix                  | Q  (VER not in session)
+[2026-06-17 14:57:31]   SKIP     2021 | Spanish Grand Prix                  | R  (VER not in session)
+[2026-06-17 14:58:00]   SKIP     2021 | Monaco Grand Prix                   | FP1  (VER not in session)
+[2026-06-17 14:58:23]   SKIP     2021 | Monaco Grand Prix                   | FP2  (VER not in session)
+[2026-06-17 14:58:47]   SKIP     2021 | Monaco Grand Prix                   | FP3  (VER not in session)
+[2026-06-17 14:58:49]   SKIP     2021 | Monaco Grand Prix                   | SQ  (session not available)
+[2026-06-17 14:58:51]   SKIP     2021 | Monaco Grand Prix                   | S  (session not available)
+[2026-06-17 14:59:15]   SKIP     2021 | Monaco Grand Prix                   | Q  (VER not in session)
+[2026-06-17 14:59:47]   SKIP     2021 | Monaco Grand Prix                   | R  (VER not in session)
+[2026-06-17 15:00:10]   SKIP     2021 | Azerbaijan Grand Prix               | FP1  (VER not in session)
+[2026-06-17 15:00:36]   SKIP     2021 | Azerbaijan Grand Prix               | FP2  (VER not in session)
+[2026-06-17 15:01:03]   SKIP     2021 | Azerbaijan Grand Prix               | FP3  (VER not in session)
+[2026-06-17 15:01:05]   SKIP     2021 | Azerbaijan Grand Prix               | SQ  (session not available)
+[2026-06-17 15:01:07]   SKIP     2021 | Azerbaijan Grand Prix               | S  (session not available)
+[2026-06-17 15:01:33]   SKIP     2021 | Azerbaijan Grand Prix               | Q  (VER not in session)
+[2026-06-17 15:02:07]   SKIP     2021 | Azerbaijan Grand Prix               | R  (VER not in session)
+[2026-06-17 15:02:32]   SKIP     2021 | French Grand Prix                   | FP1  (VER not in session)
+[2026-06-17 15:02:52]   SKIP     2021 | French Grand Prix                   | FP2  (VER not in session)
+[2026-06-17 15:03:13]   SKIP     2021 | French Grand Prix                   | FP3  (VER not in session)
+[2026-06-17 15:03:15]   SKIP     2021 | French Grand Prix                   | SQ  (session not available)
+[2026-06-17 15:03:17]   SKIP     2021 | French Grand Prix                   | S  (session not available)
+[2026-06-17 15:03:43]   SKIP     2021 | French Grand Prix                   | Q  (VER not in session)
+[2026-06-17 15:04:12]   SKIP     2021 | French Grand Prix                   | R  (VER not in session)
+[2026-06-17 15:04:37]   SKIP     2021 | Styrian Grand Prix                  | FP1  (VER not in session)
+[2026-06-17 15:04:59]   SKIP     2021 | Styrian Grand Prix                  | FP2  (VER not in session)
+[2026-06-17 15:05:27]   SKIP     2021 | Styrian Grand Prix                  | FP3  (VER not in session)
+[2026-06-17 15:05:29]   SKIP     2021 | Styrian Grand Prix                  | SQ  (session not available)
+[2026-06-17 15:05:31]   SKIP     2021 | Styrian Grand Prix                  | S  (session not available)
+[2026-06-17 15:05:53]   SKIP     2021 | Styrian Grand Prix                  | Q  (VER not in session)
+[2026-06-17 15:06:26]   SKIP     2021 | Styrian Grand Prix                  | R  (VER not in session)
+[2026-06-17 15:06:47]   SKIP     2021 | Austrian Grand Prix                 | FP1  (VER not in session)
+[2026-06-17 15:07:14]   SKIP     2021 | Austrian Grand Prix                 | FP2  (VER not in session)
+[2026-06-17 15:07:39]   SKIP     2021 | Austrian Grand Prix                 | FP3  (VER not in session)
+[2026-06-17 15:07:41]   SKIP     2021 | Austrian Grand Prix                 | SQ  (session not available)
+[2026-06-17 15:07:43]   SKIP     2021 | Austrian Grand Prix                 | S  (session not available)
+[2026-06-17 15:08:08]   SKIP     2021 | Austrian Grand Prix                 | Q  (VER not in session)
+[2026-06-17 15:08:41]   SKIP     2021 | Austrian Grand Prix                 | R  (VER not in session)
+[2026-06-17 15:09:05]   SKIP     2021 | British Grand Prix                  | FP1  (VER not in session)
+[2026-06-17 15:09:29]   SKIP     2021 | British Grand Prix                  | FP2  (VER not in session)
+[2026-06-17 15:09:31]   SKIP     2021 | British Grand Prix                  | FP3  (session not available)
+[2026-06-17 15:09:53]   SKIP     2021 | British Grand Prix                  | SQ  (VER not in session)
+[2026-06-17 15:09:57]   SKIP     2021 | British Grand Prix                  | S  (VER not in session)
+[2026-06-17 15:10:21]   SKIP     2021 | British Grand Prix                  | Q  (VER not in session)
+[2026-06-17 15:10:56]   SKIP     2021 | British Grand Prix                  | R  (VER not in session)
+[2026-06-17 15:10:58]   ERROR    2021 | Hungarian Grand Prix                | FP1  — any API: 500 calls/h
+[2026-06-17 15:11:00]   ERROR    2021 | Hungarian Grand Prix                | FP2  — any API: 500 calls/h
+[2026-06-17 15:11:02]   ERROR    2021 | Hungarian Grand Prix                | FP3  — any API: 500 calls/h
+[2026-06-17 15:11:05]   SKIP     2021 | Hungarian Grand Prix                | SQ  (session not available)
+[2026-06-17 15:11:07]   SKIP     2021 | Hungarian Grand Prix                | S  (session not available)
+[2026-06-17 15:11:09]   ERROR    2021 | Hungarian Grand Prix                | Q  — any API: 500 calls/h
+[2026-06-17 15:11:11]   ERROR    2021 | Hungarian Grand Prix                | R  — any API: 500 calls/h
+[2026-06-17 15:11:13]   ERROR    2021 | Belgian Grand Prix                  | FP1  — any API: 500 calls/h
+[2026-06-17 15:11:15]   ERROR    2021 | Belgian Grand Prix                  | FP2  — any API: 500 calls/h
+[2026-06-17 15:11:17]   ERROR    2021 | Belgian Grand Prix                  | FP3  — any API: 500 calls/h
+[2026-06-17 15:11:19]   SKIP     2021 | Belgian Grand Prix                  | SQ  (session not available)
+[2026-06-17 15:11:21]   SKIP     2021 | Belgian Grand Prix                  | S  (session not available)
+[2026-06-17 15:11:23]   ERROR    2021 | Belgian Grand Prix                  | Q  — any API: 500 calls/h
+[2026-06-17 15:11:25]   ERROR    2021 | Belgian Grand Prix                  | R  — any API: 500 calls/h
+[2026-06-17 15:11:27]   ERROR    2021 | Dutch Grand Prix                    | FP1  — any API: 500 calls/h
+[2026-06-17 15:11:29]   ERROR    2021 | Dutch Grand Prix                    | FP2  — any API: 500 calls/h
+[2026-06-17 15:11:31]   ERROR    2021 | Dutch Grand Prix                    | FP3  — any API: 500 calls/h
+[2026-06-17 15:11:33]   SKIP     2021 | Dutch Grand Prix                    | SQ  (session not available)
+[2026-06-17 15:11:35]   SKIP     2021 | Dutch Grand Prix                    | S  (session not available)
+[2026-06-17 15:11:37]   ERROR    2021 | Dutch Grand Prix                    | Q  — any API: 500 calls/h
+[2026-06-17 15:11:39]   ERROR    2021 | Dutch Grand Prix                    | R  — any API: 500 calls/h
+[2026-06-17 15:11:41]   ERROR    2021 | Italian Grand Prix                  | FP1  — any API: 500 calls/h
+[2026-06-17 15:11:43]   ERROR    2021 | Italian Grand Prix                  | FP2  — any API: 500 calls/h
+[2026-06-17 15:11:45]   SKIP     2021 | Italian Grand Prix                  | FP3  (session not available)
+[2026-06-17 15:11:47]   ERROR    2021 | Italian Grand Prix                  | SQ  — any API: 500 calls/h
+[2026-06-17 15:11:49]   ERROR    2021 | Italian Grand Prix                  | S  — any API: 500 calls/h
+[2026-06-17 15:11:51]   ERROR    2021 | Italian Grand Prix                  | Q  — any API: 500 calls/h
+[2026-06-17 15:11:53]   ERROR    2021 | Italian Grand Prix                  | R  — any API: 500 calls/h
+[2026-06-17 15:11:56]   ERROR    2021 | Russian Grand Prix                  | FP1  — any API: 500 calls/h
+[2026-06-17 15:11:58]   ERROR    2021 | Russian Grand Prix                  | FP2  — any API: 500 calls/h
+[2026-06-17 15:12:00]   ERROR    2021 | Russian Grand Prix                  | FP3  — any API: 500 calls/h
+[2026-06-17 15:12:02]   SKIP     2021 | Russian Grand Prix                  | SQ  (session not available)
+[2026-06-17 15:12:04]   SKIP     2021 | Russian Grand Prix                  | S  (session not available)
+[2026-06-17 15:12:06]   ERROR    2021 | Russian Grand Prix                  | Q  — any API: 500 calls/h
+[2026-06-17 15:12:08]   ERROR    2021 | Russian Grand Prix                  | R  — any API: 500 calls/h
+[2026-06-17 15:12:10]   ERROR    2021 | Turkish Grand Prix                  | FP1  — any API: 500 calls/h
+[2026-06-17 15:12:12]   ERROR    2021 | Turkish Grand Prix                  | FP2  — any API: 500 calls/h
+[2026-06-17 15:12:14]   ERROR    2021 | Turkish Grand Prix                  | FP3  — any API: 500 calls/h
+[2026-06-17 15:12:16]   SKIP     2021 | Turkish Grand Prix                  | SQ  (session not available)
+[2026-06-17 15:12:18]   SKIP     2021 | Turkish Grand Prix                  | S  (session not available)
+[2026-06-17 15:12:20]   ERROR    2021 | Turkish Grand Prix                  | Q  — any API: 500 calls/h
+[2026-06-17 15:12:22]   ERROR    2021 | Turkish Grand Prix                  | R  — any API: 500 calls/h
+[2026-06-17 15:12:24]   ERROR    2021 | United States Grand Prix            | FP1  — any API: 500 calls/h
+[2026-06-17 15:12:26]   ERROR    2021 | United States Grand Prix            | FP2  — any API: 500 calls/h
+[2026-06-17 15:12:28]   ERROR    2021 | United States Grand Prix            | FP3  — any API: 500 calls/h
+[2026-06-17 15:12:30]   SKIP     2021 | United States Grand Prix            | SQ  (session not available)
+[2026-06-17 15:12:32]   SKIP     2021 | United States Grand Prix            | S  (session not available)
+[2026-06-17 15:12:34]   ERROR    2021 | United States Grand Prix            | Q  — any API: 500 calls/h
+[2026-06-17 15:12:36]   ERROR    2021 | United States Grand Prix            | R  — any API: 500 calls/h
+[2026-06-17 15:12:38]   ERROR    2021 | Mexico City Grand Prix              | FP1  — any API: 500 calls/h
+[2026-06-17 15:12:40]   ERROR    2021 | Mexico City Grand Prix              | FP2  — any API: 500 calls/h
+[2026-06-17 15:12:42]   ERROR    2021 | Mexico City Grand Prix              | FP3  — any API: 500 calls/h
+[2026-06-17 15:12:44]   SKIP     2021 | Mexico City Grand Prix              | SQ  (session not available)
+[2026-06-17 15:12:47]   SKIP     2021 | Mexico City Grand Prix              | S  (session not available)
+[2026-06-17 15:12:49]   ERROR    2021 | Mexico City Grand Prix              | Q  — any API: 500 calls/h
+[2026-06-17 15:12:51]   ERROR    2021 | Mexico City Grand Prix              | R  — any API: 500 calls/h
+[2026-06-17 15:12:53]   ERROR    2021 | São Paulo Grand Prix                | FP1  — any API: 500 calls/h
+[2026-06-17 15:12:55]   ERROR    2021 | São Paulo Grand Prix                | FP2  — any API: 500 calls/h
+[2026-06-17 15:12:57]   SKIP     2021 | São Paulo Grand Prix                | FP3  (session not available)
+[2026-06-17 15:12:59]   ERROR    2021 | São Paulo Grand Prix                | SQ  — any API: 500 calls/h
+[2026-06-17 15:13:01]   ERROR    2021 | São Paulo Grand Prix                | S  — any API: 500 calls/h
+[2026-06-17 15:13:03]   ERROR    2021 | São Paulo Grand Prix                | Q  — any API: 500 calls/h
+[2026-06-17 15:13:05]   ERROR    2021 | São Paulo Grand Prix                | R  — any API: 500 calls/h
+[2026-06-17 15:13:07]   ERROR    2021 | Qatar Grand Prix                    | FP1  — any API: 500 calls/h
+[2026-06-17 15:13:09]   ERROR    2021 | Qatar Grand Prix                    | FP2  — any API: 500 calls/h
+[2026-06-17 15:13:11]   ERROR    2021 | Qatar Grand Prix                    | FP3  — any API: 500 calls/h
+[2026-06-17 15:13:13]   SKIP     2021 | Qatar Grand Prix                    | SQ  (session not available)
+[2026-06-17 15:13:15]   SKIP     2021 | Qatar Grand Prix                    | S  (session not available)
+[2026-06-17 15:13:17]   ERROR    2021 | Qatar Grand Prix                    | Q  — any API: 500 calls/h
+[2026-06-17 15:13:19]   ERROR    2021 | Qatar Grand Prix                    | R  — any API: 500 calls/h
+[2026-06-17 15:13:21]   ERROR    2021 | Saudi Arabian Grand Prix            | FP1  — any API: 500 calls/h
+[2026-06-17 15:13:23]   ERROR    2021 | Saudi Arabian Grand Prix            | FP2  — any API: 500 calls/h
+[2026-06-17 15:13:25]   ERROR    2021 | Saudi Arabian Grand Prix            | FP3  — any API: 500 calls/h
+[2026-06-17 15:13:27]   SKIP     2021 | Saudi Arabian Grand Prix            | SQ  (session not available)
+[2026-06-17 15:13:29]   SKIP     2021 | Saudi Arabian Grand Prix            | S  (session not available)
+[2026-06-17 15:13:31]   ERROR    2021 | Saudi Arabian Grand Prix            | Q  — any API: 500 calls/h
+[2026-06-17 15:13:33]   ERROR    2021 | Saudi Arabian Grand Prix            | R  — any API: 500 calls/h
+[2026-06-17 15:13:35]   ERROR    2021 | Abu Dhabi Grand Prix                | FP1  — any API: 500 calls/h
+[2026-06-17 15:13:37]   ERROR    2021 | Abu Dhabi Grand Prix                | FP2  — any API: 500 calls/h
+[2026-06-17 15:13:40]   ERROR    2021 | Abu Dhabi Grand Prix                | FP3  — any API: 500 calls/h
+[2026-06-17 15:13:42]   SKIP     2021 | Abu Dhabi Grand Prix                | SQ  (session not available)
+[2026-06-17 15:13:44]   SKIP     2021 | Abu Dhabi Grand Prix                | S  (session not available)
+[2026-06-17 15:13:46]   ERROR    2021 | Abu Dhabi Grand Prix                | Q  — any API: 500 calls/h
+[2026-06-17 15:13:48]   ERROR    2021 | Abu Dhabi Grand Prix                | R  — any API: 500 calls/h
+[2026-06-17 15:13:50] 
+============================================================
+[2026-06-17 15:13:50] Done in 46.0 min  |  ok=0  skipped=92  errors=62
+[2026-06-17 15:13:50] ============================================================
+

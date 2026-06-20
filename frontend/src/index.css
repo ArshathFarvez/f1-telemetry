@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+/* Tailwind v4: class-based dark mode via the .dark class on <html> */
+@variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-rbr-red:    #e8002d;
+  --color-rbr-yellow: #ffd700;
+  --color-rbr-green:  #00c853;
+  --color-rbr-orange: #ff6d00;
+  --font-mono: ui-monospace, Consolas, monospace;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  overflow-y: auto;
+  transition: background-color 0.15s, color 0.15s;
+}
+
+#root {
+  width: 100%;
+  min-height: 100svh;
+  overflow-y: auto;
+}
+
+/* ── Scrollbar dark ───────────────────────────────────────────── */
+::-webkit-scrollbar              { width: 6px; height: 6px; }
+.dark ::-webkit-scrollbar-track  { background: #0a0e1a; }
+.dark ::-webkit-scrollbar-thumb  { background: #1c2333; border-radius: 3px; }
+.dark ::-webkit-scrollbar-thumb:hover { background: #5a6a80; }
+
+/* ── Scrollbar light ──────────────────────────────────────────── */
+::-webkit-scrollbar-track        { background: #e2e8f0; }
+::-webkit-scrollbar-thumb        { background: #94a3b8; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover  { background: #64748b; }

@@ -1,0 +1,9 @@
+telemetry-cache/
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+backend/__pycache__/
+backend/.env
+.env
+*.sqlite
