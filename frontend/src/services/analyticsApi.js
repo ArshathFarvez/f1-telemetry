@@ -1,4 +1,7 @@
-const BASE = "http://localhost:5000/api/analytics";
+const API_URL = "https://f1-telemetry-651z.onrender.com";
+
+const BASE = `${API_URL}/api/analytics`;
+const TELEMETRY_BASE = `${API_URL}/api/telemetry`;
 
 const CLIENT_TIMEOUT_MS = 150000;
 
@@ -44,9 +47,6 @@ async function apiFetch(url, options = {}) {
 
     console.log(`[analyticsApi] SUCCESS ${url}`);
 
-    // Return the full JSON object. Let the caller decide how to parse it.
-    // The previous implementation (json.data || json) was destructive, as it
-    // would discard other properties on the root object (like a 'summary' object).
     return json;
   } catch (err) {
     if (err.name === "AbortError") {
@@ -93,15 +93,26 @@ function qs(params = {}) {
   );
 }
 
-const TELEMETRY_BASE = "http://localhost:5000/api/telemetry";
-
 // ======================================================
 // TELEMETRY LAPS — list of all laps for a driver/session
 // ======================================================
 
-export async function fetchLaps({ driver, year, gp, session } = {}) {
-  const query = qs({ driver, year, gp, session });
-  return apiFetch(`${TELEMETRY_BASE}/laps${query}`);
+export async function fetchLaps({
+  driver,
+  year,
+  gp,
+  session,
+} = {}) {
+  const query = qs({
+    driver,
+    year,
+    gp,
+    session,
+  });
+
+  return apiFetch(
+    `${TELEMETRY_BASE}/laps${query}`
+  );
 }
 
 // ======================================================
@@ -109,18 +120,38 @@ export async function fetchLaps({ driver, year, gp, session } = {}) {
 // lap: "fastest" | "last" | number
 // ======================================================
 
-export async function fetchLapTelemetry({ driver, year, gp, session, lap } = {}) {
-  const query = qs({ driver, year, gp, session, lap });
-  return apiFetch(`${TELEMETRY_BASE}/lap${query}`);
+export async function fetchLapTelemetry({
+  driver,
+  year,
+  gp,
+  session,
+  lap,
+} = {}) {
+  const query = qs({
+    driver,
+    year,
+    gp,
+    session,
+    lap,
+  });
+
+  return apiFetch(
+    `${TELEMETRY_BASE}/lap${query}`
+  );
 }
 
 // ======================================================
 // SCHEDULE
 // ======================================================
 
-export async function fetchSchedule({ year } = {}) {
+export async function fetchSchedule({
+  year,
+} = {}) {
   const query = qs({ year });
-  return apiFetch(`${BASE}/schedule${query}`);
+
+  return apiFetch(
+    `${BASE}/schedule${query}`
+  );
 }
 
 // ======================================================
@@ -133,8 +164,16 @@ export async function fetchComparison({
   session,
   drivers,
 } = {}) {
-  const query = qs({ year, gp, session, drivers: drivers?.join(",") });
-  return apiFetch(`${BASE}/compare${query}`);
+  const query = qs({
+    year,
+    gp,
+    session,
+    drivers: drivers?.join(","),
+  });
+
+  return apiFetch(
+    `${BASE}/compare${query}`
+  );
 }
 
 // ======================================================
@@ -147,8 +186,16 @@ export async function fetchTyres({
   session,
   driver,
 } = {}) {
-  const query = qs({ year, gp, session, driver });
-  return apiFetch(`${BASE}/tyres${query}`);
+  const query = qs({
+    year,
+    gp,
+    session,
+    driver,
+  });
+
+  return apiFetch(
+    `${BASE}/tyres${query}`
+  );
 }
 
 // ======================================================
@@ -161,8 +208,16 @@ export async function fetchStrategy({
   session,
   driver,
 } = {}) {
-  const query = qs({ year, gp, session, driver });
-  return apiFetch(`${BASE}/strategy${query}`);
+  const query = qs({
+    year,
+    gp,
+    session,
+    driver,
+  });
+
+  return apiFetch(
+    `${BASE}/strategy${query}`
+  );
 }
 
 // ======================================================
@@ -174,6 +229,13 @@ export async function fetchTrackEvolution({
   gp,
   session,
 } = {}) {
-  const query = qs({ year, gp, session });
-  return apiFetch(`${BASE}/track-evolution${query}`);
+  const query = qs({
+    year,
+    gp,
+    session,
+  });
+
+  return apiFetch(
+    `${BASE}/track-evolution${query}`
+  );
 }
