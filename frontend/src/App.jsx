@@ -52,6 +52,28 @@ const PANELS = {
   evolution:  { label: "Track Evolution",     component: TrackEvolutionPanel },
 };
 
+function extractScheduleNames(scheduleData) {
+  const candidates = [
+    scheduleData,
+    scheduleData?.data,
+    scheduleData?.events,
+    scheduleData?.schedule,
+    scheduleData?.value,
+    scheduleData?.data?.events,
+    scheduleData?.data?.schedule,
+    scheduleData?.data?.value,
+  ];
+  const source = candidates.find(Array.isArray) ?? [];
+
+  return source
+    .map((event) => (
+      typeof event === "string"
+        ? event
+        : event?.EventName ?? event?.eventName ?? event?.name ?? event?.grandPrix ?? ""
+    ))
+    .filter(Boolean);
+}
+
 export default function App() {
   const [onboardingComplete, setOnboardingComplete] = useState(() => {
     try {
@@ -87,11 +109,7 @@ export default function App() {
     fetchSchedule({ year })
       .then((scheduleData) => {
         if (cancelled) return;
-        const names = Array.isArray(scheduleData)
-          ? scheduleData
-          : Array.isArray(scheduleData?.data)
-            ? scheduleData.data
-            : [];
+        const names = extractScheduleNames(scheduleData);
 
         setGpList(names);
         setGp((prev) => names.includes(prev) ? prev : (names[0] ?? ""));

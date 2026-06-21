@@ -1,4 +1,6 @@
-const API_URL = "https://f1-telemetry-651z.onrender.com";
+const API_URL = (
+  import.meta.env.VITE_API_URL || "http://localhost:5000"
+).replace(/\/+$/, "");
 
 const BASE = `${API_URL}/api/analytics`;
 const TELEMETRY_BASE = `${API_URL}/api/telemetry`;
